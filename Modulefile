@@ -1,0 +1,10 @@
+name 'sandinh-my_fw'
+version '0.5.0'
+
+author 'giabao'
+license 'Apache 2.0'
+project_page 'http://sandinh.com'
+source 'https://github.com/giabao/puppet-my_fw.git'
+summary 'init firewall rules'
+description '@see https://github.com/puppetlabs/puppetlabs-firewall#usage'
+dependency 'puppetlabs/firewall', '>=0.2.1'
