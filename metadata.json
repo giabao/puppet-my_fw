@@ -1,0 +1,27 @@
+{
+  "name": "sandinh-my_fw",
+  "author": "giabao",
+  "description": "@see https://github.com/puppetlabs/puppetlabs-firewall#usage",
+  "license": "Apache 2.0",
+  "project_page": "http://sandinh.com",
+  "source": "https://github.com/giabao/puppet-my_fw.git",
+  "summary": "init firewall rules",
+  "version": "0.5.0",
+  "checksums": {
+    "Modulefile": "cfb08eab11bac1c09d661c0d9a93c5f8",
+    "README.markdown": "01abb33baf0f1d40628ccbfe3b4cc07e",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "6ceb1976edf1a26e7becca61862bd46b",
+    "manifests/post.pp": "e78b1beb689c903e988333d64837322e",
+    "manifests/pre.pp": "95cde62c810558fc004ddd53d8051601",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "641205e6f9c265cfd664cc6e54a43d46"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/firewall",
+      "version_requirement": "\u003e\u003d0.2.1"
+    }
+  ]
+}
